@@ -1,0 +1,19 @@
+problem 1 solution 
+
+SELECT * FROM CITY;
+-----------------------------
+problem 2 solution
+
+SELECT * FROM CITY WHERE ID=1661;
+-----------------------------
+problem 3 solution
+
+SELECT * FROM CITY WHERE CountryCode = 'USA' AND POPULATION > 100000;
+-----------------------------
+problem 4 solution
+
+SELECT name FROM CITY WHERE countrycode='JPN';
+------------------------------
+problem 5 solution
+
+select NAME from students where Marks > 75 order by SUBSTRING(Name, -3), id
